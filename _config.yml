@@ -28,10 +28,10 @@ kramdown:
 owner:
   name: An Do
   avatar: bio-photo.jpg
-  bio: "Describe your self."
+  bio: "Software Gardener."
   email: digiarnie@gmail.com
   disqus-shortname: 
-  twitter: #digiarnie
+  twitter: digiarnie
   facebook: #username
   google:
     plus: #username
@@ -40,9 +40,9 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #digiarnie
+  github: digiarnie
   stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #digiarnie
+  linkedin: digiarnie
   instagram: #username
   lastfm: #username
   tumblr: #username
