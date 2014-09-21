@@ -40,6 +40,12 @@ yaourt nodejs
 gem install jekyll
 {% endhighlight %}
 
+* If you get the error "ERROR: Failed to build gem native extension." while installing Jekyll, you will need to make sure you install ruby-dev:
+
+{% highlight bash %}
+gem install ruby-dev
+{% endhighlight %}
+
 * Create a new repository on github called yourusername.github.io (obviously substitute yourusername with your actual GitHub username)
 * Clone the Minimal Mistakes repo onto your machine:
 
