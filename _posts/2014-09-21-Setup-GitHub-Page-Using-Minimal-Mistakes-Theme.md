@@ -46,17 +46,17 @@ gem install jekyll
 gem install ruby-dev
 {% endhighlight %}
 
-* Create a new repository on github called `*yourusername*.github.io` (obviously substitute yourusername with your actual GitHub username)
+* Create a new repository on github called `yourusername.github.io` (obviously substitute yourusername with your actual GitHub username)
 * Clone the Minimal Mistakes repo onto your machine:
 
 {% highlight bash %}
-git clone git@github.com:mmistakes/minimal-mistakes.git *yourusername*.github.io
+git clone git@github.com:mmistakes/minimal-mistakes.git yourusername.github.io
 {% endhighlight %}
 
 * Navigate into your github repository (obviously substitute yourusername with your actual GitHub username)
 
 {% highlight bash %}
-cd *yourusername*.github.io
+cd yourusername.github.io
 {% endhighlight %}
 
 * Install Bundler and use it to install the dependencies:
@@ -69,7 +69,7 @@ bundle install
  * Make your initial commit of the blog into your GitHub repository (obviously substitute yourusername with your actual GitHub username):
 
 {% highlight bash %}
-git remote set-url origin git@github.com:*yourusername*/*yourusername*.github.io.git
+git remote set-url origin git@github.com:yourusername/yourusername.github.io.git
 git push origin master
 {% endhighlight %}
 
