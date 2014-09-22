@@ -55,7 +55,7 @@ git clone git@github.com:mmistakes/minimal-mistakes.git yourusername.github.io
 cd yourusername.github.io
 {% endhighlight %}
 
-* Install Bundler and use it to install the dependencies:
+* Install the Bundler Package Manager and use it to install the dependencies found in the Gemfile:
 
 {% highlight bash %}
 gem install bundler
