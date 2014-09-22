@@ -69,10 +69,10 @@ git remote set-url origin git@github.com:yourusername/yourusername.github.io.git
 git push origin master
 {% endhighlight %}
 
- * Start your Jekyll server:
+ * Start your Jekyll server where the `--watch` flag will watch for changes and regenerate automatically:
 
 {% highlight bash %}
-jekyll serve
+jekyll serve --watch
 {% endhighlight %}
 
 * Now you should be able to access your new Minimal Mistakes blog at:
