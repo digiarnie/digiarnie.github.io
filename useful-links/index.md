@@ -20,3 +20,7 @@ image:
 
 ## Markdown
 * [Markdown Cheatsheet (adam-p)](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+## Jekyll
+* [Jekyll with GitHub Pages (GitHub)](https://help.github.com/articles/using-jekyll-with-pages)
+* [Official Jekyll Page (Jekyll)](http://jekyllrb.com/)
