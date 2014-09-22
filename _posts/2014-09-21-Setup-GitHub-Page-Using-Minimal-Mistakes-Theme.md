@@ -81,4 +81,10 @@ jekyll serve
 http://localhost:4000
 {% endhighlight %}
 
+* Make sure you run the following command to keep your Jekyll up-to-date with what GitHub is using especially if you see that the local output no longer matches the output on GitHub:
+ 
+{% highlight bash %}
+bundle update
+{% endhighlight %}
+
 For more information about setting up the theme for usage, head over to [Minimal Mistakes' Theme Setup](http://mmistakes.github.io/minimal-mistakes/theme-setup/)
