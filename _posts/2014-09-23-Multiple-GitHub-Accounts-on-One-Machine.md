@@ -94,7 +94,7 @@ $ cd ~/personalRepository
 $ git config user.email "user@mypersonalemail.com"
 {% endhighlight %}
 
-When you are ready to push changes to GitHub, just make sure that your URL for origin on remote is set using the correct host (in our case, either *personal* or *work*).  The following is an example of pushing changes to a personal repository using the personal keys.  **Note:** The token after the @ symbol used to say github.com.  We are now replacing it here with ```personal``` to make sure we end up using the correct identity file.
+When you are ready to push changes to GitHub, just make sure that your URL for origin on remote is set using the correct host (in our case, either *personal* or *work*).  The following is an example of pushing changes to a personal repository using the personal keys.  **Note:** The token after the @ symbol used to say ```github.com```.  We are now replacing it here with ```personal``` to make sure we end up using the correct identity file.
 
 {% highlight bash %}
 $ git remote set-url origin git@personal:personal-user/personalRepository.git
