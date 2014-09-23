@@ -63,7 +63,7 @@ In the *config* file, add the following contents.
 
 This will map your personal key with the host ```personal``` and the work key with the host ```work```.  Both point back to the host *github.com*.
 
-{% highlight %}
+{% highlight vim %}
 Host personal
    HostName github.com
    User git
