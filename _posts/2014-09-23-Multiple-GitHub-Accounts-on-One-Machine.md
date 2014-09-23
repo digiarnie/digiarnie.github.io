@@ -59,9 +59,7 @@ $ cd ~/.ssh
 $ vim config
 {% endhighlight %}
 
-In the *config* file, add the following contents.  
-
-This will map your personal key with the host ```personal``` and the work key with the host ```work```.  Both point back to the host *github.com*.
+In the *config* file, add the following contents.  This will map your personal key with the host ```personal``` and the work key with the host ```work```.  Both point back to the host *github.com*.
 
 {% highlight vim %}
 Host personal
@@ -75,9 +73,7 @@ Host work
    IdentityFile ~/.ssh/id_rsa.work
 {% endhighlight %}
 
-If you wanted, you could make either the ```personal``` or ```work``` Host to be called github.com so that you don't have to change the remote URL (as you will see further on) for both personal and work repositories.
-
-You can verify that the keys and SSH configuration have been set up correctly by testing the SSH connection:
+If you wanted, you could make either the ```personal``` or ```work``` Host to be called github.com so that you don't have to change the remote URL (as you will see further on) for both personal and work repositories.  You can verify that the keys and SSH configuration have been set up correctly by testing the SSH connection:
 
 {% highlight bash %}
 $ ssh -T personal
